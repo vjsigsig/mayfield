@@ -3,15 +3,15 @@
 return [
 
     /** TwitterConsumerKey */
-    'env' => env('TWITTER_CONSUMER_KEY', ''),
+    'consumer_key' => env('TWITTER_CONSUMER_KEY', ''),
 
     /** TwitterConsumerSecret */
-    'env' => env('TWITTER_CONSUMER_SECRET', ''),
+    'consumer_secret' => env('TWITTER_CONSUMER_SECRET', ''),
 
     /** TwitterAccessToken */
-    'env' => env('TWITTER_ACCESS_TOKEN', ''),
+    'access_token' => env('TWITTER_ACCESS_TOKEN', ''),
 
     /** TwitterAccessTokenSecret */
-    'env' => env('TWITTER_ACCESS_TOKEN_SECRET', ''),
+    'access_token_secret' => env('TWITTER_ACCESS_TOKEN_SECRET', ''),
 
 ];
